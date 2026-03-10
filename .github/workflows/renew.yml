@@ -2,7 +2,7 @@ name: JustRunMy 自动续期
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 1 */2 * *'
+    - cron: '22 1 * * *'
 jobs:
   renew:
     runs-on: ubuntu-latest
